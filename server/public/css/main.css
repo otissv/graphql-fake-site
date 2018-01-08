@@ -1,0 +1,9 @@
+.Approval, .Response {
+  margin: 30px auto;
+  width: 300px;
+}
+
+.Response {
+  display: 'none';
+  text-align: center;
+}

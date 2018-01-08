@@ -1,0 +1,3 @@
+export const GET_GRAPHQL_SCHEMA = 'GET_GRAPHQL_SCHEMA';
+export const SET_GRAPHQL_SCHEMA = 'SET_GRAPHQL_SCHEMA';
+export const SET_THEME = 'SET_THEME';

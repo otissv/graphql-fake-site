@@ -1,0 +1,132 @@
+.material .graphiql-container .docExplorerHide:hover,
+.material .graphiql-container .search-box .search-box-clear:hover {
+  color: #c30788;
+}
+
+.material .graphiql-container .doc-explorer-contents {
+  border-top: 2px solid #c30788;
+  
+}
+
+.material .graphiql-container .doc-category-title {
+  border-color: #c30788
+}
+
+
+.material .graphiql-container .result-window .CodeMirror,
+.material .graphiql-container .variable-editor-title {
+  background: #263238;
+}
+
+.material .graphiql-container .docExplorerShow,
+.material .graphiql-container .topBar {
+  background: #1f2b31;
+}
+
+.material .graphiql-container .execute-button,
+.material .graphiql-container .toolbar-button error,
+.material .graphiql-container .toolbar-button,
+.material .graphiql-container .footer,
+.material .graphiql-container .variable-editor-title,
+.material .graphiql-container .resultWrap,
+.material .graphiql-container .result-window .CodeMirror-gutters {
+  background-color: #32454e;
+}
+
+.material .graphiql-container .footer,
+.material .graphiql-container .variable-editor-title ,
+.material .graphiql-container .execute-button,
+.material .graphiql-container .toolbar-button error,
+.material .graphiql-container .toolbar-button,
+.material .graphiql-container .title {
+  color: #bcbcbc !important;
+}
+
+.material .graphiql-container .execute-button svg {
+  color: #bcbcbc;
+  fill: currentColor;
+  transition: all 0.3s ease;
+}
+
+.material .graphiql-container input.theme-switch:checked {
+  background: #bcc1c4 !important;
+}
+
+
+.material .graphiql-container .footer {
+  color: #1f2b31;
+}
+
+.material .graphiql-container .cm-number {
+  color: #e46f64;
+}
+
+/* Doc explorer dark */
+.material .graphiql-container .doc-explorer,
+.material .graphiql-container .doc-explorer-contents {
+  color: #bcbcbc;
+  background: #1f2b31
+}
+
+.material .graphiql-container .field-name ,
+.material .graphiql-container .CodeMirror-linenumber {
+  color: #5c8e7f;
+}
+
+.material .graphiql-container .arg-name,
+.material .graphiql-container :not(pre)>code  {
+  color: #dfb463;
+}
+
+.material .graphiql-container .type-name {
+  color: #e46f64;
+}
+
+.material .graphiql-container .keyword {
+    color: #ffffff;
+}
+
+.material .graphiql-container .search-box {
+  border-bottom: 1px solid #32454e;
+}
+
+.material .graphiql-container .search-box:before {
+  top: 5px;
+}
+
+.material .graphiql-container .search-box > input {
+  color: #fbfbfb;
+  background: none;
+  padding: 6px 24px 8px 25px;
+}
+
+.material .graphiql-container .doc-category-title {
+  color: #bcbcbc;
+}
+
+.material .graphiql-container .search-box .search-box-clear {
+  background: none;
+  border-radius: 50%;
+  height: 22px;
+  width: 10px;
+  padding: 0 6px 0 6px;
+  line-height: 2;
+  right: 20px;
+}
+
+
+/* borders */
+.material .graphiql-container .docExplorerShow,
+.material .graphiql-container .doc-explorer-contents,
+.material .graphiql-container .doc-explorer-title-bar {
+  border-left: 1px solid #32454e;
+}
+
+.material .graphiql-container .result-window .CodeMirror-gutters {
+  border-right: 1px solid #3f4f57;
+}
+
+.material .graphiql-container .footer,
+.material .graphiql-container .variable-editor-title {
+  border-top: 1px solid #3f4f57;
+}

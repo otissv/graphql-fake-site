@@ -1,0 +1,6 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = "\n#=> \"Laborum eius porro consequatur.\" \nsentence: String,\n\n#=> \"Dolorum fuga nobis sit natus consequatur. Laboriosam sapiente. Natus quos ut.\" \nsentences: String,\n\n#=> \"Systematic nobis\" \ntitle: String,\n\n#=> \"Nemo tempore natus non accusamus eos placeat nesciunt. et fugit ut odio nisi dolore non ... (long text)\"\ntext: String,\n\n#=> \"Vel et rerum nostrum quia. Dolorum fuga nobis sit natus consequatur.\"\ndescription: String,\n\n#=> \"Qui iste similique iusto.\" \nshortDescription: String,\n\n#=> \"saepe quia molestias voluptates et\" \nstring: String,\n\n#=> \"voluptatem\" \nword: String,\n\n#=> \"sed quis ut beatae id adipisci aut\"\nwords: String,\n\n#=> [ \"voluptas\", \"atque\", \"vitae\", \"vel\", \"dolor\", \"saepe\", \"ut\" ] \narrayOfWords: [String],\n\n#=> \"k\"\nletter: String,\n\n#=> \"Est facilis totam eum distinctio tenetur ratione. Omnis qui voluptas. Expedita ab optio eos quia qui dolores.\"\nparagraph: String,\n\n#=>\"Est facilis totam eum distinctio tenetur ratione. Omnis qui voluptas. Expedita ab optio eos quia qui dolores. ...\"\nparagraphs: String,\n\n#=> \"quibusdam-dolorem-perspiciatis\"\nslug: String,\n\n#=> \"Sit optio omnis modi nam rem quis. ...\"\nlines: String,\n";

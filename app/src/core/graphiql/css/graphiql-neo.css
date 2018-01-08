@@ -1,0 +1,158 @@
+.neo .graphiql-container .docExplorerHide:hover,
+.neo .graphiql-container .search-box .search-box-clear:hover {
+  color: #c30788;
+}
+
+.neo .graphiql-container .doc-explorer-contents {
+  border-top: 2px solid #c30788;
+  
+}
+
+.neo .graphiql-container .doc-category-title {
+  border-color: #c30788
+}
+
+
+.neo .graphiql-container .field-name,
+.neo .graphiql-container .cm-property {
+  color: #1d75b3;
+  transition: color 0.3s ease;
+}
+
+.CodeMirror-guttermarker-subtle,
+.neo .graphiql-container .CodeMirror-linenumber {
+  transition: #51a0d8;
+  transition: transition 0.3s ease;
+}
+
+
+.neo .graphiql-container .doc-explorer,
+.neo .graphiql-container .doc-explorer-contents,
+.neo .graphiql-container .docExplorerShow,
+.neo .graphiql-container .topBar {
+  background: #dadae2;
+  transition: background 0.3s ease;
+}
+
+.neo .graphiql-container .resultWrap,
+.neo .graphiql-container .footer,
+.neo .graphiql-container .variable-editor-title,
+.neo .graphiql-container .result-window .CodeMirror-gutters {
+  background: #e9e9ef;
+  transition: border 0.3s ease, background 0.3s ease;
+}
+
+.neo .graphiql-container .execute-button,
+.neo .graphiql-container .toolbar-button error,
+.neo .graphiql-container .toolbar-button
+.neo .graphiql-container .title {
+  color: #777 !important;
+  transition: color 0.3s ease;
+}
+
+.neo .graphiql-container .execute-button svg {
+  color: #fff;
+  fill: currentColor;
+  transition: fill 0.3s ease;
+}
+
+.neo .graphiql-container .execute-button:hover,
+.neo .graphiql-container .toolbar-button:focus,
+.neo .graphiql-container .toolbar-button:hover {
+  color: #fff !important;
+  transition: color 0.3s ease;
+}
+
+.neo .graphiql-container .execute-button:active,
+.neo .graphiql-container .toolbar-button:active {
+  background: #979797 !important;
+  transition: color 0.3s ease;
+}
+
+.neo .graphiql-container input.theme-switch:checked {
+  background: #32454e  !important;
+}
+.neo .graphiql-container .execute-button,
+.neo .graphiql-container .toolbar-button error,
+.neo .graphiql-container .toolbar-button {
+  background: #bcc1c4 !important;
+  transition: background 0.3s ease;
+}
+
+.neo .graphiql-container .type-name,
+.neo .graphiql-container .cm-number,
+.neo .graphiql-container .cm-string  {
+  color: #b35e14;
+  transition: color 0.3s ease;
+}
+
+.doc-type-description,
+.neo .graphiql-container .footer,
+.neo .graphiql-container .doc-category-title,
+.neo .graphiql-container .doc-explorer-title ,
+.neo .graphiql-container .keyword,
+.neo .graphiql-container .doc-explorer,
+.neo .graphiql-container .doc-explorer-contents {
+  color: #777;
+  transition: color 0.3s ease;
+}
+
+.neo .graphiql-container .arg-name {
+  color: #8B2BB9;
+  transition: color 0.3s ease;
+}
+
+.neo .graphiql-container :not(pre)>code {
+  color: #e46f64;
+  transition: color 0.3s ease;
+}
+
+.neo .graphiql-container .search-box {
+  border-bottom: 1px solid #c0c0c0;
+  transition: border-bottom 0.3s ease;
+}
+
+.neo .graphiql-container .search-box:before {
+  top: 5px;
+}
+
+.neo .graphiql-container .search-box > input {
+  background: none;
+  padding: 6px 24px 8px 25px;
+}
+
+.neo .graphiql-container .search-box .search-box-clear {
+  background: none;
+  border-radius: 50%;
+  height: 22px;
+  width: 10px;
+  padding: 0 6px 0 6px;
+  line-height: 2;
+  right: 20px;
+}
+
+
+
+.neo .graphiql-container .search-box .search-box-clear,
+.neo .graphiql-container .search-box  > input {
+  color: #777;
+  transition: color 0.3s ease;
+}
+
+
+/* borders */
+.neo .graphiql-container .docExplorerShow,
+.neo .graphiql-container .doc-explorer-contents,
+.neo .graphiql-container .doc-explorer-title-bar {
+  border-left: 1px solid #c0c0c0;
+}
+
+.neo .graphiql-container .result-window .CodeMirror-gutters {
+  border-right: 1px solid #e0e0e0;
+}
+
+.neo .graphiql-container .footer,
+.neo .graphiql-container .variable-editor-title {
+  border-top: 1px solid #e0e0e0;
+}
+

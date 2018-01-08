@@ -1,0 +1,151 @@
+.graphiql-theme {
+  height: 100vh;
+}
+.graphiql-container .CodeMirror {
+  font-family: 'Source Code Pro', 'Consolas', 'Inconsolata', 'Droid Sans Mono','Monaco', monospace;
+}
+
+.graphiql-container .title .logo {
+  height: 30px;
+}
+
+.graphiql-container .docExplorerWrap {
+  position: relative;
+  z-index: 9999;
+  min-width: 320px;
+}
+
+.graphiql-container .docExplorerShow,
+.graphiql-container .topBar {
+  border: none;
+  border-bottom: 2px solid #E10098;
+  position: relative;
+  z-index: 9999;
+}
+
+
+.graphiql-container .result-window .CodeMirror-gutters {
+  width: 13px;
+  position: absolute;
+  z-index: 9000;
+  top: 0;
+}
+
+.graphiql-container .docExplorerShow,
+.graphiql-container .doc-explorer-back {
+  color: #E10098;
+}
+
+.graphiql-container .docExplorerShow:before,
+.graphiql-container .doc-explorer-back:before {
+  border-color: #E10098;
+}
+
+
+.graphiql-container .CodeMirror-cursor {
+  border-left-color: #fff !important;
+}
+
+.graphiql-container .toolbar {
+  padding-bottom: 17px;
+}
+
+.graphiql-container .execute-button,
+.graphiql-container .toolbar-button error,
+.graphiql-container .toolbar-button {
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+
+.graphiql-container .execute-button {
+  border: none;
+}
+
+.graphiql-container .execute-button:hover,
+.graphiql-container .toolbar-button:focus,
+.graphiql-container .toolbar-button:hover,
+.graphiql-container .execute-button:active,
+.graphiql-container .toolbar-button:active {
+  background: #c30788 !important;
+}
+
+.graphiql-container .footer {
+  padding: 4px 20px 4px 20px;
+  text-align: right;
+  font-weight: bold !important;
+  font-size: 13px;
+  margin-left: 14px;
+}
+
+.graphiql-container .footer:before {
+  background: none;
+}
+.graphiql-container .footer .social-icon {
+  margin-left: 20px;
+}
+
+.graphiql-container .search-box:before {
+  top: 5px;
+}
+
+.graphiql-container .search-box > input {
+  background: none;
+  padding: 6px 24px 8px 25px;
+}
+
+.graphiql-container .search-box .search-box-clear {
+  background: none;
+  border-radius: 50%;
+  height: 22px;
+  width: 10px;
+  padding: 0 6px 0 6px;
+  line-height: 2;
+  right: 20px;
+}
+
+.graphiql-container input.theme-switch {
+  font-size: 10px;
+  position: relative;
+  top: 13px;
+  display: inline-block;
+  appearance: none;
+  width: 34px;
+  height:34px;
+  border-radius: 2.3em;
+  margin: 0;
+  padding: 0;
+  background: #fbfbfb;
+  outline: 1px solid transparent !important;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 13px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  transition: background .3s ease-in-out, padding .25s ease-in-out;
+  transition-delay: .1s, 0s;
+}
+
+
+.graphiql-container input.theme-switch::after {
+  content: "\f043";
+  font-family: FontAwesome;
+  left: 12px;
+  position: absolute;
+  color: #c30788;
+  top: 10px;
+  width: 34px;
+  height: 34px;
+  font-size: 15px;
+}
+
+li.CodeMirror-hint-active, 
+::selection {
+  background: #c30788 !important;
+}
+
+.material .graphiql-container .result-window .CodeMirror-gutters,
+.graphiql-container .resultWrap,
+.graphiql-container .footer {
+  border-left: none !important;
+}
+

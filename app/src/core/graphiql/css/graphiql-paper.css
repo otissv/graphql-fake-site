@@ -1,0 +1,29 @@
+.paper .graphiql-container .docExplorerShow,
+.paper .graphiql-container .topBar,
+.paper .graphiql-container .docExplorerWrap,
+.paper .graphiql-container .result-window .CodeMirror-gutters {
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 5px, rgba(0, 0, 0, 0.227451) 0px 3px 5px;
+}
+
+
+.paper .graphiql-container .execute-button:hover,
+.paper .graphiql-container .toolbar-button:focus,
+.paper .graphiql-container .toolbar-button:hover,
+.paper .graphiql-container .execute-button:active,
+.paper .graphiql-container .toolbar-button:active {
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+}
+
+/* border */
+.paper .graphiql-container .result-window .CodeMirror-gutters,
+.paper .graphiql-container .doc-explorer-contents,
+.paper .graphiql-container .doc-explorer-title-bar,
+.paper .graphiql-container .resultWrap,
+.paper .graphiql-container .footer,
+.paper .graphiql-container .variable-editor-title {
+  border: none !important;
+}
+
+.paper .graphiql-container .docExplorerShow, {
+  border-left: none;
+}
